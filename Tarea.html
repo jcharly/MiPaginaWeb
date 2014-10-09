@@ -12,7 +12,9 @@
 		margin-left: 100px;
 		margin-right: 100px;
 	}
-	
+	#header{
+		border: solid;
+	}
 	header>hgroup>h2{
 		padding-left: 5%;
 	}
@@ -34,24 +36,33 @@
 		color: orange!important;
 		font-size: 20px;
 	}
-	a:hover{
-		font-size: 20px;
-	}
+
 	section{
 		padding: 15px;
 	}
 	aside{
 		float: right;
 	}
+	footer{
+		margin-top: 30px;
+		background-color: #9FAFA7;
+	}
+	footer>p{
+		list-style: none;
+		display: inline;
+		padding-right: 30px;
+	}
 
 </style>
 <body>
-	<header>
-		<hgroup>
-			<h1>Mi pagina web</h1>
-			<h2>Subtitulo de mi pagina web</h2>
-		</hgroup>
-	</header>
+	<div id = "header">
+		<header>
+			<hgroup>
+				<h1>Mi pagina web</h1>
+				<h2>Subtitulo de mi pagina web</h2>
+			</hgroup>
+		</header>
+	</div>
 	<nav>
 		<ul>
 			<li class = "navegador"><a href="#segunda">Autos</a></li>
@@ -60,6 +71,8 @@
 			<li class = "navegador"><a href="#">Otros</a></li>
 		</ul>
 	</nav>
+	
+	
 	<section>
 		
 		<article>
@@ -128,6 +141,9 @@
 			</form>
 		</article>
 	</section>
+	<footer>
+		<p>Derechos de autor</p><p>Marca Registrada <span>Icon</span></p>
+	</footer>
 
 </body>
 </html>

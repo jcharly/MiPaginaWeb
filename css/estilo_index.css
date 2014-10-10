@@ -29,37 +29,57 @@ html{
 		list-style: none;
 		display: inline;
 		margin: 0px;
-		padding: 10px;
+		padding: 15px;
 		background-color: #000000;
 		box-shadow: 2px 3px 6px;
 	}
 	a{
+		font-size: 20px;
 		text-decoration: none!important;
 		color: white !important;
 	}
 	.navegador:hover{
-		-webkit-animation: colornav 3s;
-		animation: colornav 3s;
+		-webkit-animation: bgnav 3s;
+		animation: bgnav 3s;
 	}
-	@-webkit-keyframes colornav {
+
+	@-webkit-keyframes bgnav {
     	from {background: gray;}
     	to {background: white;}
 	}
-	@keyframes colornav {
+	@keyframes bgnav {
     	from {background: gray;
     			}
     	to {background: white;
     		}
 	}
+	@-webkit-keyframes colornav {
+    	from {color: white;}
+    	to {color: black;}
+	}
+	@keyframes colornav {
+    	from {color: white;}
+    	to {color: black;}
+	}
 
 	a:active{
 		color: orange!important;
-		font-size: 20px;
+		
 	}
-
+	a:hover{
+		-webkit-animation: colornav 3s;
+		animation: colornav 3s;
+	}
 
 	section{
 		padding: 15px;
+	}
+	#form{
+		float: right;
+		padding-right: 10%;
+
+	}
+
 	}
 	aside{
 		float: right;

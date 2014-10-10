@@ -88,9 +88,15 @@ html{
 	footer{
 		margin-top: 30px;
 		background-color:#000000;
+		padding: 20px;
 		padding-bottom: 150px;
+
+	}
+	footer>table>thead,footer>table>tbody{
+		color: #FFF;
 	}
 	footer>p{
+		float: right;
 		color:#FFFFFF;
 		list-style: none;
 		display: inline;

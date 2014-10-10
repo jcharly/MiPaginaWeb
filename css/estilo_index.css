@@ -41,6 +41,7 @@ html{
 	.navegador:hover{
 		-webkit-animation: bgnav 3s;
 		animation: bgnav 3s;
+		
 	}
 
 	@-webkit-keyframes bgnav {

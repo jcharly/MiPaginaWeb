@@ -31,11 +31,27 @@ html{
 		margin: 0px;
 		padding: 10px;
 		background-color: #000000;
+		box-shadow: 2px 3px 6px;
 	}
 	a{
 		text-decoration: none!important;
 		color: white !important;
 	}
+	.navegador:hover{
+		-webkit-animation: colornav 3s;
+		animation: colornav 3s;
+	}
+	@-webkit-keyframes colornav {
+    	from {background: gray;}
+    	to {background: white;}
+	}
+	@keyframes colornav {
+    	from {background: gray;
+    			}
+    	to {background: white;
+    		}
+	}
+
 	a:active{
 		color: orange!important;
 		font-size: 20px;

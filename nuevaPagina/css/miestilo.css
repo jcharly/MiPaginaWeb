@@ -1,0 +1,15 @@
+#fondo{
+	background-image: url();
+}
+
+label{
+	display: block;
+	float: left;
+}
+#pass,#correo,#nombre{
+	display: block;
+	float:right;
+}
+.btn{
+	float: right;
+}

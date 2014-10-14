@@ -1,5 +1,5 @@
-#fondo{
-	background-image: url();
+body{
+	background-image: url('../img/nyk.jpg');
 }
 
 label{
@@ -12,4 +12,8 @@ label{
 }
 .btn{
 	float: right;
+}
+#form{
+background-color: gray;
+opacity: 0.8;
 }

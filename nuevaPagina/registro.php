@@ -1,5 +1,6 @@
 <?php 
  ?>
+ 
 	<h3 class= "text-center">Registro</h3>
 	<form action="validarRegistro.php" method="POST" id= "registro">
 		<div class="row">
@@ -13,6 +14,9 @@
 		<div class="row">
 			<label for="pass">Contraseña:</label>
 			<input type="password" id="pass" name="pass">
+		</div>
+		<div class="row">
+			<p></p>
 		</div>
 		<button class= "btn btn-warning" type="submit">Registrar</button>
 	</form>

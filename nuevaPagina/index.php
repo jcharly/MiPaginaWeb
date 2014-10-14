@@ -10,7 +10,7 @@
 	<div class="container" id = "fondo">
 		<div class="col-lg-4">
 		</div>
-		<div class="col-lg-4">
+		<div class="col-lg-4" id = "form">
 			<?php include("registro.php") ?>
 		</div>
 		<div class="col-lg-4">	
